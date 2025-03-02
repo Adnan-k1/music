@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+
+    <div class="playlist-container">
+        <h2>Daftar Lagu</h2>
+        
+        <input type="text" id="search-bar" placeholder="Cari lagu..." />
+
+        <div class="playlist">
+            <div class="song" data-src="music/Frank Ocean - Ivy.mp3">
+                <img src="foto/ivy.jpeg" alt="Cover">
+                <div class="song-details">
+                    <div class="song-title">Ivy</div>
+                    <div class="song-artist">Frank Ocean - Blonde</div>
+                </div>
+                <div class="song-duration">4:09</div>
+                <button class="play-button">▶</button>
+            </div>
+            
+            <div class="song" data-src="musicLoose.mp3">
+                <img src="foto/th.jpeg" alt="Cover">
+                <div class="song-details">
+                    <div class="song-title">Loose</div>
+                    <div class="song-artist">Daniel Caesar - Loose</div>
+                </div>
+                <div class="song-duration">4:09</div>
+                <button class="play-button">▶</button>
+            </div>
+
+            <div class="song" data-src="music/Daniel Caesar Rex Orange County  Rearrange My World Official Audio.mp3">
+                <img src="foto/Rearrange My World.jpeg" alt="Cover">
+                <div class="song-details">
+                    <div class="song-title">Rearrange My World</div>
+                    <div class="song-artist">Daniel Caesar x Rex Orange County</div>
+                </div>
+                <div class="song-duration">4:09</div>
+                <button class="play-button">▶</button>
+            </div>
+
+            <div class="song" data-src="music/Pink Matter.mp3">
+                <img src="foto/th (1).jpeg" alt="Cover">
+                <div class="song-details">
+                    <div class="song-title">Pink Matter</div>
+                    <div class="song-artist">Frank Ocean - Pink Matter</div>
+                </div>
+                <div class="song-duration">4:09</div>
+                <button class="play-button">▶</button>
+            </div>
+
+            <div class="song" data-src="music/Daniel Caesar  Toronto 2014 Official Audio.mp3">
+                <img src="foto/th (2).jpeg" alt="Cover">
+                <div class="song-details">
+                    <div class="song-title">Toronto 2014</div>
+                    <div class="song-artist">Daniel Caesar - Toronto 2014</div>
+                </div>
+                <div class="song-duration">4:09</div>
+                <button class="play-button">▶</button>
+            </div>
+        </div>
+
+        <audio id="audio-player"></audio>
+    </div>
+
+    <script src="projek.js"></script>
+</body>
+</html>
